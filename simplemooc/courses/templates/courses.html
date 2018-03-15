@@ -26,7 +26,9 @@
     </div>
     <div class="pure-u-2-3">
         <div class="l-box">
-            <h4 class="content-subhead"><a href="{{ course.get_absolute_url }}" title="">{{ course.name }}</a></h4>
+            <h4 class="content-subhead">
+                <a href="{{ course.get_absolute_url }}" title="">{{ course.name }}</a>
+            </h4>
             {{ course.description|linebreaks }}
         </div>
     </div>
